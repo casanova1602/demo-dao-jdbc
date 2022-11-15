@@ -93,11 +93,11 @@ public class Seller implements Serializable{
 		return Objects.equals(id, other.id);
 	}
 
-	@Override
-	public String toString() {
-		return "Seller [id=" + id + ", name=" + name + ", email=" + email + ", birthDate=" + birthDate + ", baseSalary="
-				+ baseSalary + ", department=" + department + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Seller [id=" + id + ", name=" + name + ", email=" + email + ", birthDate=" + birthDate + ", baseSalary="
+//				+ baseSalary + ", department=" + department + "]";
+//	}
 	
 	
 	
